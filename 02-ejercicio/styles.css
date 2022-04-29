@@ -1,0 +1,131 @@
+#general{
+    width: 1200px;
+    border: 1px solid red;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 90px;
+}
+#menu ul li{
+   /* display: inline-block;*/
+   display: block;/*otra opcion con float en vez de inline-block*/
+   float: left;
+   padding: 10px;
+   border-right: 1px solid red;
+
+}
+#menu{
+    background-color: #eee;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+#menu ul li:hover{
+    background-color: aqua;
+    
+    
+}
+#menu ul li:hover a{
+    color: white;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+#contenido{
+    width: 69%;
+  
+    float: left;
+}
+
+#lateral{
+    width: 30%;
+    border: 1px solid rgb(53, 211, 53);
+    float: left;
+    min-height: 500px;
+    max-height: 600px;
+   text-align:center;
+   overflow-y:scroll;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+#contenido .caja{
+    position:relative;
+    width: 40%;
+    height: 250px;
+    border: gray 1px solid;
+    float: left;
+    margin: 2%;
+    margin-left: 45px;
+    text-align: center;
+    background-color: #ccc;
+    line-height: 230px;
+    color: rgb(59, 6, 59);
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px gray inset ;
+    border-radius: 50px 10px 4px 61px;
+
+
+}
+#contenido h1{
+    text-align: center;
+    border-bottom: 1px solid greenyellow;
+    padding: 15px;
+    color: #444;
+    text-shadow: -10px -10px 5px gray;
+}
+#footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
+
+}
+.libre{
+   border: 1px solid black;
+   background-color: red; 
+   color: white;
+   width: 50px;
+   height: 50px;
+   font-size: 13px;
+   position: absolute;
+   top: 500px;
+   right: 45%;
+   z-index: 2;
+   
+}
+.libre2{
+    background-color: green;
+    color: white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    top: 510px;
+    right: 40%;
+    z-index: 1;
+
+}
+.fija{
+    background-color: blue;
+    color: white;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    top: 50%;
+    left:0px;
+}

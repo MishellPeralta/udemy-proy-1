@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li:first-child{
+    color: red;
+    font-weight: bold;
+
+}
+ul li:nth-child(2){
+    color: pink;
+    font-weight: bold;
+}
+#mi-enlace{
+font-size: 30px;
+color: lightcoral;
+}
+#mi-enlace:link{
+    color: blue;
+}
+#mi-enlace:visited{
+    color:green;
+}
+#mi-enlace:hover{
+    color: white;
+}
+#mi-enlace:active{
+    color: violet;
+}
+input[type="text"]{
+   margin-top: 20px;
+   padding: 10px; 
+}
+input[type="text"]:focus{
+    border: 4px dashed red;
+}
